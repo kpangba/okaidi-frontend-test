@@ -28,7 +28,7 @@
 
       function startGame() {
         fetch(
-          "https://opentdb.com/api.php?amount=2&category=18&difficulty=hard&type=multiple"
+          "https://opentdb.com/api.php?amount=5&category=18&difficulty=hard&type=multiple"
         )
           .then((res) => res.json())
           .then((res) => {
